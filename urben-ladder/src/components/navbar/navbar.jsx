@@ -1,3 +1,15 @@
+import { TopNavbar } from "../Navbar/TopNavbar";
+import { MiddleNavbar } from "../Navbar/MiddleNavbar";
+import { BottomNavbar } from "../Navbar/BottomNavbar";
+
 export const Navbar = () => {
-    return <h1>Navbar page</h1>
-}
+  return (
+    <div>
+      <StyledEngineProvider injectFirst>
+        <TopNavbar />
+      </StyledEngineProvider>
+      <MiddleNavbar />
+      <BottomNavbar />
+    </div>
+  );
+};
