@@ -1,0 +1,43 @@
+.cart{
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+.noCost {
+  margin-top: 50px;
+}
+
+.tandc > li {
+  padding: 5px;
+  text-align: left;
+  background-color: rgba(199, 239, 207, 0.5);
+  padding-left: 40px;
+  list-style: none;
+  font-size: 13px;
+  padding: 10px;
+}
+.knowMore {
+  background: transparent;
+}
+.step {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+  vertical-align: middle;
+  padding-left: 55px;
+  color: #999999;
+}
+.btn-input {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+}
+.mCenter > p {
+  justify-content: center;
+  text-align: center;
+}
+.checkout {
+  float: right;
+}
