@@ -1,3 +1,5 @@
 export const Product_detail = () => {
-    return <h1>Product_detail page</h1>
+    return <div>
+        <h1>jkjdfks kajskd f</h1>
+    </div>
 }
