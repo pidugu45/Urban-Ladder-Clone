@@ -1,0 +1,221 @@
+.aside-cont {
+  /* padding-left: 5px; */
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.product-action {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 15px;
+  color: #999999;
+}
+.wishlist {
+  border-right: 1px solid black;
+}
+.wishlist,
+.compare {
+  display: flex;
+  justify-content: center;
+  /* gap: 5px; */
+}
+.title-div {
+  /* border: 1px solid red; */
+  bottom: 50px;
+  margin-top: 9px;
+}
+.sale-cont {
+  margin: auto;
+  position: relative;
+  align-items: center;
+  margin-top: 15px;
+}
+.sale {
+  height: 60px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.off {
+  font-size: 25px;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  background: transparent;
+}
+.note {
+  font-size: 10px;
+  text-align: center;
+}
+
+.variant-option-cont {
+  margin-top: 10px;
+}
+.variant-option-cont > div {
+  margin-top: 15px;
+}
+.subtitle {
+  margin-left: 15px;
+}
+.price-cont {
+  width: 100%;
+  display: flex;
+  margin-top: 35px;
+  margin-left: 5px;
+  height: 55px;
+}
+.strike-price {
+  text-decoration: line-through;
+}
+.strike-price-cont {
+  display: flex;
+  margin-top: 20px;
+}
+.discounted-price {
+  font-weight: lighter;
+  margin-left: 25px;
+}
+.price-name {
+  color: #999999;
+}
+.price {
+  font-size: 40px;
+  font-weight: lighter;
+}
+.real-price {
+  font-size: 25px;
+  margin-bottom: 22px;
+}
+.incl-all-taxes {
+  font-size: 10px;
+  color: #969696;
+}
+.emi-cont {
+  width: 100%;
+  background: #f2f2f2;
+  height: 70px;
+  margin-top: 20px;
+  display: flex;
+}
+.emi-logo {
+  height: 45px;
+  width: 45px;
+  border: 2px solid black;
+  border-radius: 2px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+  background: #f2f2f2;
+}
+.EMI {
+  font-size: 20px;
+  text-align: center;
+  background: #f2f2f2;
+}
+.FINANCE {
+  font-size: 9px;
+  text-align: center;
+  background: #f2f2f2;
+}
+.emi-text {
+  background: #f2f2f2;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
+  padding: 3px;
+}
+.emi-li {
+  background: #f2f2f2;
+  list-style: none;
+  font-size: 13px;
+}
+.emi-li > li {
+  padding-bottom: 5px;
+  background: #f2f2f2;
+}
+.emi-li > li > span {
+  background: #f2f2f2;
+}
+.link-title {
+  background: #f2f2f2;
+}
+.knowMore {
+  color: #ed7745;
+  cursor: pointer;
+}
+.addToCart {
+  margin-top: 15px;
+}
+.wrnty-cont {
+  display: flex;
+  font-size: 13px;
+  border: 1px solid red;
+  padding: 5px;
+  margin-top: 20px;
+  border: 1px solid #969696;
+  margin-left: 7px;
+  border-radius: 5px;
+}
+.wrnty-tex {
+  margin-left: 15px;
+  word-spacing: 2px;
+}
+.bold-one,
+.emi-li > li > span {
+  font-weight: bold;
+  color: black;
+  font-weight: 15px;
+}
+.locCont {
+  height: 42px;
+  gap: 5px;
+}
+.changeLoc {
+  gap: 50px;
+  font-weight: bolder;
+}
+.be-first {
+  color: #969696;
+  font-size: 12px;
+  margin-top: 15px;
+  word-spacing: 2px;
+  padding-left: 5px;
+}
+
+.FrequentlyBoughtTogether {
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: center;
+  color: #969696;
+  border: black 1px dotted;
+  padding: 10px;
+
+}
+.freqImg {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20%;
+}
+.freqImg > img {
+  margin: 15px;
+}
+.combo-btn>button{
+  width: 100%;
+  border: #ed7745 3px solid;
+  height: 50px;
+  width: 80%;
+  border-radius: 5px;
+  color: #ED7745;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+.combo-btn>button:hover{
+  background: #ED7745;
+  color: white;
+  cursor: pointer;
+}
