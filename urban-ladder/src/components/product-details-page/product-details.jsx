@@ -20,7 +20,7 @@ export const Product_detail = () => {
 
   console.log("product", product);
 
-  let product_dimensions = product.product_dimensions || [];
+  let product_dimensions = product?.product_dimensions;
   return (
     product && (
       <div className="main-product-cont">
@@ -162,15 +162,17 @@ export const Product_detail = () => {
           </h1>
 
           <div className="dimSlider">
-            <SimpleImageSlider
-              width={680}
-              height={400}
-              images={product_dimensions}
-              showBullets={false}
-              showNavs={true}
-              bgColor={"red"}
-              autoPlay={true}
-            />
+            {product_dimensions ? (
+              <SimpleImageSlider
+                width={680}
+                height={400}
+                images={product_dimensions}
+                showBullets={false}
+                showNavs={true}
+                bgColor={"red"}
+                autoPlay={true}
+              />
+            ) : null}
           </div>
         </div>
       </div>
