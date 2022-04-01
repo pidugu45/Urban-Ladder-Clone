@@ -9,7 +9,11 @@ import { Button } from "../SmallParts/Button";
 import { SubTitle } from "../SmallParts/SubTitle";
 import { ShieldIcon } from "../iconsComponents/Shield";
 import { Location } from "../iconsComponents/location";
-export const Aside = ({ title, disc, emi, MRP_price }) => {
+import { useNavigate } from "react-router-dom";
+
+export const Aside = ({ title, disc, emi, MRP_price, func }) => {
+  const navigate = useNavigate();
+
   return (
     <div className="aside-cont">
       <div className="product-action">
@@ -110,18 +114,24 @@ export const Aside = ({ title, disc, emi, MRP_price }) => {
         </div>
       </div>
       <div className="addToCart">
-        <Button
-          height={"50px"}
-          width={"100%"}
-          color={"white"}
-          bg={"#ed7745"}
-          fontSize={"20px"}
-          borderRadius={"5px"}
-          hbg={"#ed7740"}
-          l
+        <div
+          onClick={() => {
+            func();
+            navigate("/cart");
+          }}
         >
-          ADD TO CART
-        </Button>
+          <Button
+            height={"50px"}
+            width={"100%"}
+            color={"white"}
+            bg={"#ed7745"}
+            fontSize={"20px"}
+            borderRadius={"5px"}
+            hbg={"#ed7740"}
+          >
+            ADD TO CART
+          </Button>
+        </div>
       </div>
 
       <div className="wrnty-cont">

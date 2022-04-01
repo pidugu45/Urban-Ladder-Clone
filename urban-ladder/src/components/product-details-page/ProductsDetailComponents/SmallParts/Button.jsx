@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const Button = styled.button`
   color: #999999;
   color: ${({ color }) => color};

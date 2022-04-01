@@ -7,7 +7,7 @@ import { Slide } from "./ProductsDetailComponents/Slide/Slide";
 import { Delhivery } from "../product-details-page/ProductsDetailComponents/iconsComponents/delhivery";
 import { Tools } from "../product-details-page/ProductsDetailComponents/iconsComponents/tools";
 import axios from "axios";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 export const Product_detail = () => {
   let [product, setProduct] = useState([]);
@@ -18,8 +18,13 @@ export const Product_detail = () => {
     });
   }, []);
 
-  console.log("product", product);
-
+  // console.log("product", product);
+  const addToCart = () => {
+    let md = JSON.parse(localStorage.getItem("cart_section")) || [];
+    let cartItem = product;
+    md.push(cartItem);
+    localStorage.setItem("cart_section", JSON.stringify(md));
+  };
   let product_dimensions = product?.product_dimensions;
   return (
     product && (
@@ -67,6 +72,7 @@ export const Product_detail = () => {
               emi={product.emi_from}
               title={product.name}
               MRP_price={product.MRP_price}
+              func={addToCart}
             />
           </div>
         </div>

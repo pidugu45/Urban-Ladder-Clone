@@ -1,0 +1,31 @@
+.TotalAddressPage {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  padding: 10px;
+}
+
+.addCont {
+  display: grid;
+  grid-template-columns: 50% 20% 30%;
+  justify-content: center;
+}
+.saveCont {
+  margin-top: 25px;
+  width: 18%;
+  margin-left: 5px;
+  height: 38px;
+  background: #ed7745;
+  color: white;
+  border-radius: 3px;
+  border: none;
+}
+.leftShopDetail {
+  margin-bottom: 25px;
+}
+.mid {
+  margin-top: 50px;
+}
+.right {
+  margin-top: 50px;
+}
