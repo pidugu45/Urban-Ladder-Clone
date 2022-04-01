@@ -1,0 +1,155 @@
+/* 
+*{
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 0px;
+} */
+
+
+/* Top Nav bar */
+
+#black {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.11);
+
+}
+
+#topNavbar {
+  display: flex;
+  width: 63%;
+  height: 25px;
+  margin: auto;
+  /* padding: 0% 0.5%; */
+  justify-content: space-between;
+  align-items: center;
+  font-size: 100%;
+}
+.topNavbarLeft {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  width: 18%;
+}
+.topNavbarLeft > div {
+  display: flex;
+  gap: 1px;
+}
+
+.topNavbarRight {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  width: 22%;
+}
+
+.topNavbarRight > div:hover {
+  color: #ed7745;
+  cursor: pointer;
+}
+.topNavbarLeft > div:hover {
+  color: #ed7745;
+  cursor: pointer;
+}
+
+/* Middle Ladder */
+
+#blackMiddle {
+  height: 78px;
+  display: flex;
+  align-items: center;
+}
+
+#middleNavbar {
+  display: flex;
+  width: 66%;
+  height: 38px;
+  margin: auto;
+  justify-content: space-between;
+}
+#urbanLadderLogo {
+  width: 15%;
+}
+
+#urbanLadderLogo > img {
+  height: 38px;
+  width: 130px;
+  cursor: pointer;
+}
+
+#inputAndSearch {
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 3px;
+  height: 38px;
+  width: 60%;
+  padding:0px 5px;
+  color: gray;
+}
+#inputAndSearch > input {
+  border: none;
+  width: 95%;
+}
+#profileIcons {
+  display: flex;
+  width: 18%;
+  padding: 5px;
+  justify-content: space-around;
+}
+
+.tooltipHoverColorChange {
+  color: #000000bd;
+  margin-top: 6px;
+}
+.tooltipHoverColorChange:hover {
+  color: #ed7745;
+  cursor: pointer;
+}
+
+
+
+/* Bottom Navbar */
+
+#blackBottom {
+  border: 1px solid rgba(128, 128, 128, 0.11);
+  height: 50px;
+  
+}
+
+#bottomNavbar {
+  display: flex;
+  width: 63%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+#bottomNavbar>span:hover{
+  color: #ed7745;
+  text-decoration: underline;
+}
+
+.dropdown-main-div{
+  width: 62%;
+  margin: auto;
+}
+
+
+/* Drop Down */
+
+.bedroom-dropdown{
+  display: none;
+}
+
+.bedroom-dropdown-block:hover .bedroom-dropdown{
+      display: block;
+}
+
+.dining-block:hover .bedroom-dropdown{
+  display: block;
+  position:initial;
+}

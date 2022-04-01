@@ -1,3 +1,9 @@
+
+import {Navbar} from "../navbar/Navbar"
+
 export const Home = () => {
-    return <h1>Home page</h1>
+    return (<div>
+        
+        <Navbar />
+    </div>)
 }
