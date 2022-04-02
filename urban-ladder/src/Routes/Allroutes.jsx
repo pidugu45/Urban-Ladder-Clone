@@ -5,6 +5,7 @@ import { Product_detail } from "../components/product-details-page/product-detai
 import { Product_page } from "../components/productpage/product"
 import  SignInSide  from "../components/sign-in/Login"
 import SignUpSide from "../components/sign-up/SignUp"
+import Forgotpass from "../components/sign-in/Forgotpass"
 export const AllRoutes = () => {
     return <>
         <Routes>
@@ -14,6 +15,7 @@ export const AllRoutes = () => {
             <Route path="/cart" element={<Cart/>} />
             <Route path="/signup" element={<SignUpSide/>} />
             <Route path="/signin" element={<SignInSide/>}/>
+            <Route path="/forgotpass" element={<Forgotpass/>}/>
         </Routes>
     </>
 }

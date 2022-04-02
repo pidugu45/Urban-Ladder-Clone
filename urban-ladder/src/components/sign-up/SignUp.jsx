@@ -15,6 +15,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import './Sinup.css'
 import { initializeApp } from "firebase/app";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import {Googleauth} from '../sign-in/Googleauth'
 
 const firebaseConfig = {
   apiKey: "AIzaSyA0LeUN82utX9Ex2JsqxL3PYNsDmWxn-4o",
@@ -151,6 +152,7 @@ export default function SignUpSide() {
                   </Link>
                 </Grid>
               </Grid>
+             <Googleauth/>
               <Copyright sx={{ mt: 5 }} />
             </Box>
           </Box>
