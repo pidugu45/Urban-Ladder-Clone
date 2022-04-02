@@ -4,6 +4,8 @@ import { StepComponent } from "../ItemCom/StepComponent";
 import { OrderSummary } from "../OrderSummary/OrderSummary";
 import "./payment.css";
 
+import { Navbar } from "../../navbar/Navbar";
+import { Footer } from "../../footer/footer";
 
 
 export const Payment = () => {
@@ -12,7 +14,8 @@ export const Payment = () => {
   };
   return (
 
-
+    <>
+      <Navbar />
     <div className="paymentContAndDIv">
       <StepComponent />
       <div className="payAndOrder">
@@ -70,6 +73,7 @@ export const Payment = () => {
         PLACE ORDER
       </button> */}
     </div>
-    
+    <Footer/>
+    </>
   );
 };

@@ -8,6 +8,7 @@ import { Product_detail } from "../components/product-details-page/product-detai
 import { Product_page } from "../components/productpage/product";
 import { SignInSide } from "../components/sign-in/Login";
 import { SignUpSide } from "../components/sign-up/SignUp";
+
 export const AllRoutes = () => {
   return (
     <>
