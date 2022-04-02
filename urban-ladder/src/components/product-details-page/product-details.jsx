@@ -9,6 +9,10 @@ import { Tools } from "../product-details-page/ProductsDetailComponents/iconsCom
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 
+import { Navbar } from "../navbar/Navbar";
+import "swiper/css/bundle";
+import {Footer} from "../footer/footer"
+
 export const Product_detail = () => {
   let [product, setProduct] = useState([]);
   const { id } = useParams();
@@ -31,18 +35,11 @@ export const Product_detail = () => {
   let product_dimensions = product?.product_dimensions;
   return (
     product && (
-      <div className="main-product-cont">
-        <hr />
 
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, id,
-          perspiciatis esse eligendi similique necessitatibus voluptas beatae
-          placeat explicabo, et perferendis. Asperiores provident commodi
-          deleniti harum laborum, temporibus non excepturi totam, reprehenderit
-          in amet, i eligendi sit ad explicabo, est iure non illo impedit ut
-          fugit, porro molestiae quia, et amet aspernatur?
-          <hr />
-        </div>
+      <>
+         <Navbar />
+      <div className="main-product-cont">
+
         {/* display inline-items */}
         <div className="inline-list">
           <ul className="">
@@ -185,6 +182,8 @@ export const Product_detail = () => {
           </div>
         </div>
       </div>
+      <Footer />
+      </>
     )
   );
 };

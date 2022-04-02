@@ -12,7 +12,6 @@ import { Card } from "./productCard";
 
 import { Navbar } from "../navbar/Navbar";
 import "swiper/css/bundle";
-import {TopFooter} from "../footer/TopFooter"
 import {Footer} from "../footer/footer"
 
 

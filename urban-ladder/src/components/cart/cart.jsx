@@ -4,6 +4,10 @@ import { ItemComp } from "./ItemCom/ItemComp";
 import { useNavigate } from "react-router-dom";
 import { StepComponent } from "./ItemCom/StepComponent";
 
+import { Navbar } from "../navbar/Navbar";
+import "swiper/css/bundle";
+import {Footer} from "../footer/footer"
+
 export const Cart = () => {
   let [cart, setCart] = useState(null);
   let [call, setCall] = useState(false);
@@ -48,6 +52,9 @@ export const Cart = () => {
   ];
 
   return (
+
+    <>
+    <Navbar />
     <div className="cart">
       <StepComponent />
 
@@ -205,5 +212,7 @@ export const Cart = () => {
         </div>
       </div>
     </div>
+    <Footer />
+    </>
   );
 };
