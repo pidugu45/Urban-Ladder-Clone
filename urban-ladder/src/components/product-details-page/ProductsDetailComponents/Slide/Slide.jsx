@@ -74,12 +74,12 @@ export const Slide = ({ moreinfo, product_details, related_images }) => {
 
               <li>
                 Consumer Care Details : &nbsp;
-                <span>{moreinfo?.ConsumerCareDetails}</span>
+                <span>{moreinfo?.Consumer_Care_Details}</span>
               </li>
 
               <li>
                 Sold By : &nbsp;
-                <span>{moreinfo?.SoldBy}</span>
+                <span>{moreinfo?.Sold_By}</span>
               </li>
 
               <li>
@@ -92,7 +92,7 @@ export const Slide = ({ moreinfo, product_details, related_images }) => {
               </li>
 
               <li>
-                Imported By : &nbsp; <span>{moreinfo?.ImportedBy}</span>
+                Imported By : &nbsp; <span>{moreinfo?.Imported_By}</span>
               </li>
               <li>
                 Manufactured By :

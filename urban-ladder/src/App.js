@@ -7,7 +7,9 @@ import {AllRoutes} from "./Routes/Allroutes"
 function App() {
   return (
     <div className="App">
+      {/* nav */}
    <AllRoutes/>
+   {/* footer */}
     </div>
   );
 }

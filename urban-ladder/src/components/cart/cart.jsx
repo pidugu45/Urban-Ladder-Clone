@@ -21,15 +21,17 @@ export const Cart = () => {
       .reduce((prev, curr) => prev + curr, 0);
     settPrice(sumall);
   }, [cart, call]);
-  localStorage.setItem("totalPr", JSON.stringify(tPrice));
 
   const remove = (index) => {
     setCall(!call);
     cart.splice(index, 1);
-
     localStorage.setItem("totalPr", JSON.stringify(tPrice));
+
     localStorage.setItem("cart_section", JSON.stringify(cart));
   };
+  localStorage.setItem("totalPr", JSON.stringify(tPrice));
+
+  // this image for the page
   let pay = [
     "https://www.ulcdn.net/assets/spree/frontend/paymentMode/VISA-verified-gray-071bc1fbd8561b3bf044e3ac3037eca5.png",
     "https://www.ulcdn.net/assets/spree/frontend/paymentMode/mastercard-gray-ada104aa6eb18055113b049ae1994f11.png",

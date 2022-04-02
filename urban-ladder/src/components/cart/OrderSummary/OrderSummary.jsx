@@ -4,20 +4,25 @@ export const OrderSummary = () => {
   const tPrice = 10;
   let data = JSON.parse(localStorage.getItem("totalPr")) || null;
   let item = JSON.parse(localStorage.getItem("cart_section")) || null;
-  let pData = item[0];
+  let pData = item;
   return (
     <div>
       <div className="paySummary wSummary">
         <p className="sumBord newSumBoard">Order Summary</p>
-        <div className="priceDatacont">
-          <div>
-            <img src={pData.image} alt="" height="40px" width="80px" />
-          </div>
-          <div className="orderTitleSum">
-            <p>{pData.name}</p>
-            <p></p>
-          </div>
-        </div>
+        {pData.map((elem) => {
+          return (
+            <div className="priceDatacont">
+              <div>
+                <img src={elem.image} alt="" height="60px" width="90px" />
+              </div>
+              <div className="orderTitleSum">
+                <p>{elem.name}</p>
+                <p>₹{elem.MRP_price}</p>
+              </div>
+            </div>
+          );
+        })}
+
         <div className="priceDatacont">
           <div>Cart Total </div>
           <div>₹{data}</div>

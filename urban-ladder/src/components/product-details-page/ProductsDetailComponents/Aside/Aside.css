@@ -1,12 +1,6 @@
-.aside-cont {
-  /* padding-left: 5px; */
-  width: 100%;
-  /* border: 1px solid red; */
-}
-
 .product-action {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
   justify-content: center;
   gap: 15px;
@@ -42,7 +36,7 @@
 }
 .off {
   font-size: 25px;
-  position: absolute;
+  /* position: absolute; */
   top: 25%;
   left: 15%;
   background: transparent;
@@ -193,7 +187,6 @@
   color: #969696;
   border: black 1px dotted;
   padding: 10px;
-
 }
 .freqImg {
   display: flex;
@@ -203,19 +196,18 @@
 .freqImg > img {
   margin: 15px;
 }
-.combo-btn>button{
+.combo-btn > button {
   width: 100%;
   border: #ed7745 3px solid;
   height: 50px;
   width: 80%;
   border-radius: 5px;
-  color: #ED7745;
+  color: #ed7745;
   font-size: 15px;
   font-weight: bold;
-
 }
-.combo-btn>button:hover{
-  background: #ED7745;
+.combo-btn > button:hover {
+  background: #ed7745;
   color: white;
   cursor: pointer;
 }

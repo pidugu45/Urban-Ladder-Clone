@@ -6,20 +6,15 @@ export const ItemComp = ({ data, fn }) => {
   let today = new Date().toLocaleDateString();
   console.log("data", data);
 
- 
   return (
     <div>
       {/* now component div */}
       {data?.map((elem, index) => {
         return (
-          <div className="cart-item">
+          <div key="index" className="cart-item">
             <div className="img-title">
               <div className="banner">
-                <img
-                  className="dp"
-                  src="https://www.ulcdn.net/images/products/293535/mini/Kowloon_Sofa_Bed_Blue_LP.jpg?1608057708"
-                  alt=""
-                />
+                <img className="dp" src={elem.image} alt="logoofproduct" />
               </div>
               <div className="title">
                 <p className="name">
@@ -68,7 +63,7 @@ export const ItemComp = ({ data, fn }) => {
                 }}
               >
                 <p>
-                  ₹58,499 &nbsp; &nbsp;
+                  ₹ {elem.MRP_price} &nbsp; &nbsp;
                   <Cross fill="#ed7745" />
                 </p>
               </span>

@@ -32,7 +32,7 @@ export const Aside = ({ title, disc, emi, MRP_price, func }) => {
           &nbsp;
         </div>
       </div>
-
+      {/* 
       <div className="sale-cont">
         <img
           src="https://www.ulcdn.net/media/sale/product-page-tag-bg/unnamed.jpg?1572547689"
@@ -43,7 +43,7 @@ export const Aside = ({ title, disc, emi, MRP_price, func }) => {
         <p className="note">
           * All discounts are dynamic and can change at any time.
         </p>
-      </div>
+      </div> */}
 
       <div className="variant-option-cont">
         <div className="finish">
@@ -90,7 +90,7 @@ export const Aside = ({ title, disc, emi, MRP_price, func }) => {
         </div>
       </div>
 
-      <div className="emi-cont">
+      {/* <div className="emi-cont">
         <div className="emi-logo">
           <div className="sqr">
             <p className="EMI">EMI</p>
@@ -112,7 +112,8 @@ export const Aside = ({ title, disc, emi, MRP_price, func }) => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
+
       <div className="addToCart">
         <div
           onClick={() => {

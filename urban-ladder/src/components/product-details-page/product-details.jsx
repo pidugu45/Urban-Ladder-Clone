@@ -13,10 +13,13 @@ export const Product_detail = () => {
   let [product, setProduct] = useState([]);
   const { id } = useParams();
   useEffect(() => {
-    axios.get(`http://localhost:8080/data/${id}`).then(({ data }) => {
-      setProduct(data);
-    });
+    axios
+      .get(`https://urban-database.herokuapp.com/products/${id}`)
+      .then(({ data }) => {
+        setProduct(data);
+      });
   }, []);
+  console.log("product", product);
 
   // console.log("product", product);
   const addToCart = () => {

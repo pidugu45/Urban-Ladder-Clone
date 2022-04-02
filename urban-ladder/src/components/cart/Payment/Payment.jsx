@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { StepComponent } from "../ItemCom/StepComponent";
 import { OrderSummary } from "../OrderSummary/OrderSummary";
 import "./payment.css";
@@ -8,49 +9,61 @@ export const Payment = () => {
   };
   return (
     <div className="paymentContAndDIv">
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, animi
-        dolor! Illo dolore quis delectus assumenda adipisci corporis error,
-        dolorum id? Doloribus ipsum voluptas natus adipisci! Ad doloribus
-        voluptate numquam quos vitae? Dolores, voluptas aspernatur! Quibusdam,
-        beatae! Atque amet culpa quod labore at pariatur molestiae eos
-        exercitationem repudiandae. Ex, earum?
-      </div>
       <StepComponent />
       <div className="payAndOrder">
-        <div className="cardsAndEmi">
-          <p className="selectPay">Select payment method</p>
-          <div>
-            <p className="creditHead">
-              {" "}
-              <input type="radio" checked /> Cards & EMIs (Credit/Debit) / UPI
-            </p>
-            <p className="subHeadPay">
-              Card EMI approval is at sole discretion of issuing Bank.
-            </p>
-            {/* <div className="logoDiv">
-              <div className="emi-logo finLogo">
-                <div className="sqr">
-                  <p className="EMI">EMI</p>
-                  <p className="FINANCE">FINANCE</p>
-                </div>
+        <div>
+          <div className="cardsAndEmi">
+            <p className="selectPay">Select payment method</p>
+            <div>
+              <p className="creditHead">
+                {" "}
+                <input type="radio" checked /> Cards & EMIs (Credit/Debit) / UPI
+              </p>
+              <p className="subHeadPay">
+                Card EMI approval is at sole discretion of issuing Bank.
+              </p>
+            </div>
+          </div>
+          {/* <div className="cardsAndEmi redem">
+            <p className="selectPay">Redeem Gift Card</p>
+            <div>
+              <div>
+                <input type="text" />
               </div>
               <div>
-                <p>
-                  EMIs from ₹843
-                  <span className="knowMore">Know More</span>
-                </p>
+                <input type="text" />
               </div>
-            </div> */}
+              <div>
+                <button>REDEEM GIFT CARD</button>
+              </div>
+            </div>
+          </div> */}
+
+          <div
+            style={{
+              paddingTop: "100px",
+            }}
+          >
+            <Link to="/checkout/address/payment/paySuccess">
+              <button
+                padding="10px"
+                className="checkOut"
+                onClick={() => razroPay()}
+              >
+                PLACE ORDER
+              </button>
+            </Link>
           </div>
         </div>
+
         <div className="orderSummart">
           <OrderSummary />
         </div>
-        <button className="checkOut " onClick={() => razroPay()}>
-          PLACE ORDER
-        </button>
       </div>
+
+      {/* <button className="checkOut" onClick={() => razroPay()}>
+        PLACE ORDER
+      </button> */}
     </div>
   );
 };
