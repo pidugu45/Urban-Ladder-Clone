@@ -1,0 +1,174 @@
+
+
+#pmain {
+  width: 70%;
+  height: auto;
+  border: 1px solid transparent;
+  margin: auto;
+}
+#top_div {
+  text-align: left;
+}
+a {
+  font-size: 15px;
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  color: coral;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#pidugutitle {
+  margin-bottom: 0%;
+  font-style: normal;
+  font-family: "Mrs Eaves XL Serif", serif;
+  font-weight: 400;
+  font-size: 34px;
+  color: #2f4858;
+  text-align: center;
+}
+#no_of_products {
+  font-family: "Mr Eaves XL Modern", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 6px;
+  color: #999999;
+  text-align: center;
+}
+#ad_img {
+  width: 100%;
+  height: 130px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+#more {
+  color: coral;
+}
+#less {
+  color: coral;
+  display: none;
+}
+#para2 {
+  display: none;
+}
+#ad_text {
+  font-family: "Mr Eaves XL Modern", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #212121;
+  margin-bottom: 25px;
+}
+hr {
+  color: gainsboro;
+}
+​
+#filters {
+  width: 70%;
+  text-align: left;
+}
+#sort {
+  width: 15%;
+  text-align: left;
+}
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Mr Eaves XL Modern", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #494848;
+}
+#buttons {
+  display: flex;
+  gap: 10px;
+}
+#exclude {
+  padding-top: 5px;
+  margin-left: 200px;
+}
+#buttons > select {
+  padding: 0px 15px;
+}
+#pgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+#pgrid > div {
+  border: 1px solid transparent;
+}
+#pgrid > div > p {
+  padding: 0px 40px;
+  margin-top: 3px;
+  margin-bottom: 3.5px;
+}
+#pgrid > div > img {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  object-fit: cover;
+}
+#pgrid > div:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition-duration: 0.35s;
+}
+#pgrid > div:hover #unset {
+  display: unset;
+}
+#pgrid > div:hover #unset:hover {
+  background-color: #e55c12fd;
+  cursor: pointer;
+}
+#linethrough {
+  text-decoration: line-through;
+}
+#pname {
+  font-family: "Mr Eaves XL Modern", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #494848;
+  text-align: center;
+}
+.psize_by {
+  font-family: "Mr Eaves XL Modern", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #999999;
+  text-align: center;
+}
+.price_p {
+  font-family: "Mr Eaves XL Modern", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  color: #999999;
+  text-align: center;
+}
+.pblock {
+  color: black;
+  text-align: center;
+}
+#unset {
+  margin-left: 0px;
+}
+#pcenter {
+  text-align: center;
+}
+#p_img {
+  padding: 2px;
+}
+.prodImgDivya {
+  padding: 10px 20px;
+  justify-content: center;
+}
