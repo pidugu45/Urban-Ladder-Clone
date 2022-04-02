@@ -1,0 +1,206 @@
+
+.footer-title{
+    font-size: 24px;
+    color: #2F4858;
+    padding: 24px 0px 12px 0px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#text-align-left{
+    text-align: left;
+    color: gray;
+    width: 62%;
+    margin: auto;
+}
+
+.footer-h2-description>div{
+    line-height: 32px;
+    font-size: 22px;
+    padding: 20px 0 10px 0;
+    color: #2F4858;
+}
+
+.footer-h2-description>p{
+    margin-bottom: 10px;
+    padding: 8px 0 4px 0;
+    line-height: 20px;
+    text-align: justify;
+}
+
+/* Main footer */
+
+.main-footer-for-subscription{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-footer-for-subscription>button{
+
+    height: 40px;
+    letter-spacing: 2px;
+    background-color: #ED7745;
+    color: #FFFFFF;
+    border-radius: 3px ;
+    font-size: 16px;
+    padding: 10px 20px;
+    border:none;
+    cursor: pointer;
+}
+
+.main-footer-for-subscription>input{
+    border: 1px solid #d2d3d3;
+    padding: 15px 10px;
+    margin-right: 10px;
+    width: 20%;
+    border-radius: 4px;
+    color: gray;
+}
+
+.footer-about-section{
+    margin: auto;
+    width: 70%;
+    margin-top: 40px;
+}
+
+.horizontal-line-gray{
+    padding: 20px 0px;
+    border: 1px solid rgba(128, 128, 128, 0.484);
+}
+
+.top-div-footer-about-section{
+    display: flex;
+    gap: 5%;
+    height: 240px;
+}
+
+.title-for-company-privacy-polocy-box{
+    flex: 1;
+    width: 20%;
+    padding: 1%;
+    text-align: left;
+}
+.title-for-company-privacy-polocy-box>div>h3{
+    padding: 16px 0 8px 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: normal;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.company-privacy-polocy-box{
+    display:flex;
+    margin-top: 10px;
+
+}
+
+.company-privacy-polocy-box>ul{
+    flex: 1;
+    text-align: left;
+}
+.company-privacy-polocy-box>ul>li{
+    list-style: none;
+    color: #2F4858;
+    font-size: 14px;
+}
+
+#contact-details-div{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 150px;
+    gap: 5%;
+}
+.connect-with-us-div {
+    flex: 1;
+    text-align: left;
+    
+}
+.download-app-div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+
+}
+
+.connect-with-us-div>div:nth-child(1){
+    padding: 16px 0 8px 0;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: normal;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.connect-with-us-div>div:nth-child(2){
+    display: flex;
+    font-size: 40px ;
+    /* display: inline-block; */
+    margin: 0 13px 7px;
+    width: 95%;
+    color: #2F4858;
+    
+    
+}
+
+.connect-with-us-div>div:nth-child(2)>span{
+    flex: 1;
+}
+
+
+.download-app-div>div:nth-child(1){
+    padding: 16px 0 8px 0;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: normal;
+    position: relative;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.download-app-div>div:nth-child(2){
+ display: flex;
+ text-align: left;
+}
+.download-app-div>div:nth-child(2)>img{
+    height: 48px;
+    margin-right: 10px;
+}
+
+/* Bottom footer */
+
+#footer-bottom-div-and-darkgreen{
+    background-color: #2F4858;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+#footer-bottom-div-marginAuto{
+    margin: auto;
+    width: 70%;
+    
+}
+
+.display-flex-for-bottom-div{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.display-flex-for-bottom-div>div:nth-child(1){
+
+    width: 25%;
+    text-align: left;
+}
+
+.display-flex-for-bottom-div>div:nth-child(2){
+    text-align: justify;
+    width: 70%;
+}
+
+#alignRight-code{
+    text-align:center
+}
