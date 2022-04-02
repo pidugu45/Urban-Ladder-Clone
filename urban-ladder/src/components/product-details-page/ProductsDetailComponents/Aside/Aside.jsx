@@ -79,7 +79,7 @@ export const Aside = ({ title, disc, emi, MRP_price, func }) => {
         <div className="strike-price-cont">
           <span className="price-name">MRP</span>
           &nbsp;
-          <div className="strike-price price-name"> ₹26,999</div>
+          <div className="strike-price price-name"> ₹ {MRP_price}</div>
         </div>
 
         <div className="discounted-price  ">

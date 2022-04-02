@@ -10,6 +10,11 @@ export const Cart = () => {
   const [apply, setApply] = useState(false);
   let [tPrice, settPrice] = useState(10);
   const navigate = useNavigate();
+
+  // function numberWithCommasDecimal(x) {
+  //   return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+  // }
+
   useEffect(() => {
     let data = JSON.parse(localStorage.getItem("cart_section"));
     setCart(data);
@@ -19,6 +24,7 @@ export const Cart = () => {
     const sumall = cart
       ?.map((item) => item.MRP_price)
       .reduce((prev, curr) => prev + curr, 0);
+
     settPrice(sumall);
   }, [cart, call]);
 
