@@ -3,11 +3,16 @@ import { Link } from "react-router-dom";
 import { StepComponent } from "../ItemCom/StepComponent";
 import { OrderSummary } from "../OrderSummary/OrderSummary";
 import "./payment.css";
+
+
+
 export const Payment = () => {
   const razroPay = () => {
     console.log("paymetn done");
   };
   return (
+
+
     <div className="paymentContAndDIv">
       <StepComponent />
       <div className="payAndOrder">
@@ -65,5 +70,6 @@ export const Payment = () => {
         PLACE ORDER
       </button> */}
     </div>
+    
   );
 };
