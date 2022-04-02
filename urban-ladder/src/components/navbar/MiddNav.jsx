@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
 
 export const MiddNav = () => {
 
-  let data = JSON.parse(localStorage.getItem("cart_section"));
+  let data = JSON.parse(localStorage.getItem("cart_section"))||[];
   console.log(data.length)
   // VscAccount
   return (
