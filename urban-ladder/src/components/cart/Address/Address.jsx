@@ -5,9 +5,17 @@ import { Shipping } from "./Shipping/Shipping";
 import { useNavigate } from "react-router-dom";
 import { OrderSummary } from "../OrderSummary/OrderSummary";
 
+
+import { Navbar } from "../../navbar/Navbar";
+import "swiper/css/bundle";
+import {Footer} from "../../footer/footer"
+
 export const Address = () => {
   const navigate = useNavigate();
   return (
+ 
+    <>
+      <Navbar/>
     <div className="TotalAddressPage">
       <StepComponent />
       <div className="addCont">
@@ -31,5 +39,7 @@ export const Address = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
