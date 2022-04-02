@@ -1,12 +1,10 @@
 import { Navbar } from "../navbar/Navbar";
 import "./HomePage.css";
 import SimpleImageSlider from "react-simple-image-slider";
-import Tooltip from "@mui/material/Tooltip";
 import {PicsSlides} from "./PicsSlides"
 import {PicsSlides2} from "./PicsSlides2"
 // eslint-disable-next-line
 import "swiper/css/bundle";
-import SimpleSlider from "./ReactSlickSlides"
 import {TopFooter} from "../footer/TopFooter"
 import {Footer} from "../footer/footer"
 

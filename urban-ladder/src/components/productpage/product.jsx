@@ -8,6 +8,14 @@ import { Title_div } from "./title";
 import { Ad } from "./ad";
 import { Features } from "./features";
 import { Card } from "./productCard";
+
+
+import { Navbar } from "../navbar/Navbar";
+import "swiper/css/bundle";
+import {TopFooter} from "../footer/TopFooter"
+import {Footer} from "../footer/footer"
+
+
 export const Product_page = () => {
   const products = useSelector((store) => store.products.products);
 
@@ -25,12 +33,14 @@ export const Product_page = () => {
     getProducts();
   }, []);
   return (
+
     <>
+    <Navbar/>
       <div id="pmain">
         <Top_div />
         <Title_div />
         <Ad />
-        <hr />
+        <hr id="id-hrOne"/>
         <Features />
         <div id="pgrid">
           {products.map((e) => (
@@ -38,6 +48,9 @@ export const Product_page = () => {
           ))}
         </div>
       </div>
+      <div>
+          <Footer />
+        </div>
     </>
   );
 };
