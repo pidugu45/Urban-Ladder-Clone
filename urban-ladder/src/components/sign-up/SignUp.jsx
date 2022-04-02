@@ -15,7 +15,8 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "./Sinup.css";
 import { initializeApp } from "firebase/app";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-
+import {Googleauth} from '../sign-in/Googleauth'
+import {useNavigate} from "react-router-dom"
 const firebaseConfig = {
   apiKey: "AIzaSyA0LeUN82utX9Ex2JsqxL3PYNsDmWxn-4o",
   authDomain: "auth-development-bf151.firebaseapp.com",
@@ -48,6 +49,7 @@ function Copyright(props) {
 const theme = createTheme();
 const auth = getAuth();
 export function SignUpSide() {
+  const navigate = useNavigate()
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -58,6 +60,8 @@ export function SignUpSide() {
         // Signed in
         const user = userCredential.user;
         alert("user created succesfully");
+        navigate("/signin")
+
         // ...
       })
       .catch((error) => {
@@ -173,8 +177,12 @@ export function SignUpSide() {
                     </Link>
                   </Grid>
                 </Grid>
-                <Copyright sx={{ mt: 5 }} />
-              </Box>
+                <Grid>
+                
+              </Grid>
+             <Googleauth/>
+              <Copyright sx={{ mt: 5 }} />
+            </Box>
             </Box>
           </Grid>
         </Grid>

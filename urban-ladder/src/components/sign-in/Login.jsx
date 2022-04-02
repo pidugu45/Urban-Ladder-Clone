@@ -13,8 +13,10 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import './Sinup.css'
+import { Googleauth } from './Googleauth';
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { initializeApp } from "firebase/app";
+import {useNavigate} from "react-router-dom"
 const firebaseConfig = {
   apiKey: "AIzaSyA0LeUN82utX9Ex2JsqxL3PYNsDmWxn-4o",
   authDomain: "auth-development-bf151.firebaseapp.com",
@@ -43,8 +45,8 @@ function Copyright(props) {
 
 const theme = createTheme();
 const auth = getAuth();
-
-export  function SignInSide() {
+export function SignInSide() {
+  const navigate = useNavigate()
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -56,6 +58,10 @@ export  function SignInSide() {
     
     const user = userCredential.user;
     alert('user succesfully signed in')
+    console.log(userCredential)
+   localStorage.setItem("token",JSON.stringify(userCredential))
+   navigate("/")
+
     // ...
   })
   .catch((error) => {
@@ -137,7 +143,7 @@ export  function SignInSide() {
               </Button>
               <Grid container>
                 <Grid item xs>
-                  <Link href="#" variant="body2">
+                  <Link href="http://localhost:3000/forgotpass" variant="body2">
                     Forgot password?
                   </Link>
                 </Grid>
@@ -148,7 +154,7 @@ export  function SignInSide() {
                   
                 </Grid>
               </Grid>
-              
+              <Googleauth/>
               <Copyright sx={{ mt: 5 }} />
               
               

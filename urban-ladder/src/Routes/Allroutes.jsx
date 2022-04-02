@@ -8,7 +8,7 @@ import { Product_detail } from "../components/product-details-page/product-detai
 import { Product_page } from "../components/productpage/product";
 import { SignInSide } from "../components/sign-in/Login";
 import { SignUpSide } from "../components/sign-up/SignUp";
-
+import Forgotpass from "../components/sign-in/Forgotpass"
 export const AllRoutes = () => {
   return (
     <>
@@ -21,6 +21,7 @@ export const AllRoutes = () => {
         <Route path="/signin" element={<SignInSide />} />
         <Route path="/checkout/address" element={<Address />} />
         <Route path="/checkout/address/payment" element={<Payment />} />
+        <Route path="/forgotpass" element={<Forgotpass />} />
         <Route
           path="/checkout/address/payment/paySuccess"
           element={<PaySucces />}
