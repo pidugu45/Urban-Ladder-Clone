@@ -5,6 +5,9 @@ import { Profile } from "./Profile";
 import {Link} from "react-router-dom"
 
 export const MiddNav = () => {
+
+  let data = JSON.parse(localStorage.getItem("cart_section"));
+  console.log(data.length)
   // VscAccount
   return (
     <div id="blackMiddle">
@@ -50,7 +53,7 @@ export const MiddNav = () => {
 
           <Link to="/cart" className="cart-link-decoration-change">
           <Tooltip className="tooltipHoverColorChange" title="Cart" arrow>
-            <Badge badgeContent={0} color="error" showZero>
+            <Badge badgeContent={data.length} color="error" showZero>
               <span className="material-icons">shopping_cart</span>
             </Badge>
           </Tooltip>
