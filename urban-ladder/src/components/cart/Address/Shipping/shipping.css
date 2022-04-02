@@ -1,0 +1,33 @@
+.shipTitle {
+  font-size: 20px;
+  padding: 10px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.shippingAddress {
+  border: 1px solid #e3dadb;
+  margin-top: 50px;
+  justify-content: center;
+  font-weight: lighter;
+  width: 340px;
+}
+.mainDetails {
+  font-weight: lighter;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 30px;
+}
+.mainDetails > div {
+  padding-bottom: 25px;
+}
+.mainDetails > div > input {
+  height: 30px;
+  width: 200px;
+  border-radius: none;
+}
+.noteGST {
+  font-size: 14px;
+  color: #999999;
+  padding: 5px;
+}

@@ -43,7 +43,8 @@ function Copyright(props) {
 
 const theme = createTheme();
 const auth = getAuth();
-export default function SignInSide() {
+
+export  function SignInSide() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);

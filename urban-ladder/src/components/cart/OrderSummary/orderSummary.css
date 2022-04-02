@@ -1,0 +1,17 @@
+.newSumBoard {
+  border-bottom: 1px solid rgb(214, 211, 204);
+  color: black;
+  font-size: 18px;
+  /* padding-bottom: 10px; */
+}
+.paySummary {
+  margin-top: 2px;
+}
+.wSummary > div {
+  border-bottom: 1px solid black;
+  color: rgb(107, 107, 107);
+  /* padding: 10px; */
+}
+.orderTitleSum {
+  padding: 5px;
+}
