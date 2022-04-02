@@ -1,0 +1,142 @@
+.cart {
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+.noCost {
+  margin-top: 50px;
+}
+
+.tandc > li {
+  padding: 5px;
+  text-align: left;
+  background-color: rgba(199, 239, 207, 0.5);
+  padding-left: 40px;
+  list-style: none;
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+}
+.knowMore {
+  background: transparent;
+}
+.step {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+  vertical-align: middle;
+  padding-left: 55px;
+  color: #999999;
+  color: #ed7745;
+}
+.borderBot {
+  border-bottom: 1px solid black;
+}
+.onewala {
+  /* color: #ed7745; */
+}
+
+.btn-input {
+  width: 100%;
+  display: flex;
+}
+.mCenter > p {
+  justify-content: center;
+  text-align: center;
+}
+.checkout {
+  float: right;
+}
+.payImg {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.payLogo {
+}
+.payLogoImg {
+  height: 20px;
+  width: 50px;
+}
+.pay-cont {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.paySummary {
+  width: 70%;
+  height: 600px;
+  justify-content: center;
+  margin: auto;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.priceDatacont {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.makeBold {
+  font-weight: bold;
+}
+.apply-coupon {
+  width: 50%;
+}
+.apply-cont {
+  text-align: center;
+  color: #ed7745;
+}
+.voucher {
+  font-weight: 400px;
+  font-size: 14px;
+}
+.hiddenCont {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.hiddenCont > input {
+  width: 200px;
+  height: 40px;
+  color: #000000;
+  background: #ebebeb;
+  padding-left: 10px;
+}
+.hiddenCont > button {
+  width: 100px;
+  height: 40px;
+  background: #f7753d;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  border: 0px;
+}
+.checkout-btn-cont {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin: auto;
+  margin-top: 50px;
+}
+.continue {
+  margin-left: 50px;
+  font-size: 14px;
+  color: #ed7745;
+  margin-top: 10px;
+}
+.checkOut {
+  width: 144px;
+  border-radius: 5px;
+  background: #f7753d;
+  height: 40px;
+  border: none;
+  color: white;
+  gap: 20px;
+}

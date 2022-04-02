@@ -1,0 +1,52 @@
+.paymentContAndDIv {
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+}
+.payAndOrder {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 20px;
+}
+.cardsAndEmi {
+  border: 1px solid #d1cbcbf0;
+  height: 200px;
+}
+.selectPay {
+  border-bottom: 1px solid rgb(35, 34, 34);
+  font-size: 16px;
+  padding: 10px;
+  padding-left: 10px;
+  width: 95%;
+  font-weight: 600;
+  margin: auto;
+}
+.creditHead {
+  padding-top: 20px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  padding: 10px;
+}
+.subHeadPay {
+  padding-left: 30px;
+  font-size: 12px;
+}
+.logoDiv {
+  width: 100%;
+  display: flex;
+}
+.finLogo {
+  width: 10px;
+  height: 20px;
+}
+.redem>div{
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+
+}
+.redem>div>input{
+  height: 80px;
+  width: 25px;
+}

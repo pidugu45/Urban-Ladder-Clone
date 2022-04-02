@@ -1,0 +1,107 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+}
+
+#slideShowForBigImages{
+   margin: auto;
+   padding-left: 2%;
+}
+.orangeBorder{
+    padding: 20px 0px 10px 0px;
+    font-size: 28px;
+    line-height: 32px;
+    color: #2F4858;
+    text-align: center;
+    font-family: "Mrs Eaves XL Serif","serif";
+}
+.orangeBorder::after{
+    position: relative;
+    content: "";
+    width: 90px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #ED7745;
+}
+
+.category-row{
+    height: 180px;
+    width: 64%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+}
+.category-row>a{
+    flex: 1;
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(86, 84, 84);
+}
+
+.category-row>a>.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 400%;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: #242424c6;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+  #backgroundColorgray{
+      background-color: #f7f5f58e;
+  }
+
+  .slideshow-maindiv{
+      height:550px;
+      width: 63%;
+      margin: auto;  
+      gap: 5px;
+  }
+
+  .setMargingForSliding{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+     
+  }
+
+  .gray-description{
+      color: gray;
+  }
+
+  .strike-amount{
+      color: gray;
+      text-decoration: line-through;
+      margin-right: 5px;
+  }
+
+  .borderRadius-for-img{
+      border-radius: 50%;
+  }
