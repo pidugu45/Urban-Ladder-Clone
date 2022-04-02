@@ -175,11 +175,7 @@ export function SignUpSide() {
                   </Grid>
                 </Grid>
                 <Grid>
-                <Grid item>
-                  <Link href="http://localhost:3000/signin" variant="body2">
-                    {"Already have an account? Sign in"}
-                  </Link>
-                </Grid>
+                
               </Grid>
              <Googleauth/>
               <Copyright sx={{ mt: 5 }} />
