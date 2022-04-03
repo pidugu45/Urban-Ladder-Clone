@@ -3,9 +3,14 @@ import "./itemCom.css";
 import { Money } from "../iconsComponents/dollar";
 import { Cross } from "../iconsComponents/cross";
 export const ItemComp = ({ data, fn }) => {
-  let today = new Date().toLocaleDateString();
-  console.log("data", data);
+  // let today = new Date().toLocaleDateString();
+  // console.log("data", data);
+  var dateObj = new Date();
+var month = dateObj.getUTCMonth() + 1; //months from 1-12
+var day = dateObj.getUTCDate()+7;
+var year = dateObj.getUTCFullYear();
 
+ const newdate = day + "/" + month + "/" + year;
   return (
     <div>
       {/* now component div */}
@@ -18,7 +23,7 @@ export const ItemComp = ({ data, fn }) => {
               </div>
               <div className="title">
                 <p className="name">
-                  Kowloon Sectional Sofa Cum Bed with Storage
+                  {elem.name}
                 </p>
                 <p className="colour"> Colour: Lapis Blue</p>
 
@@ -37,7 +42,7 @@ export const ItemComp = ({ data, fn }) => {
             </div>
 
             <div className="del-date">
-              <p>{today}</p>
+              <p>{newdate}</p>
             </div>
 
             <div className="qty">

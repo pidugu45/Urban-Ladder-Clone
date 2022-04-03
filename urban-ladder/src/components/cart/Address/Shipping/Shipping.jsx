@@ -8,19 +8,19 @@ export const Shipping = () => {
 
         <div className="mainDetails">
           <div>
-            <p>Email Id</p>
+            <p>Email Id*</p>
           </div>
           <div>
             <input type="text" placeholder="Email Id" />
           </div>
           <div>
-            <p>PIN Code</p>
+            <p>PIN Code*</p>
           </div>
           <div>
             <input type="Number" placeholder="PIN Code" />
           </div>
           <div>
-            <p>Address</p>
+            <p>Address*</p>
           </div>
           <div>
             <textarea
