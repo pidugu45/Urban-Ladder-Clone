@@ -10,6 +10,7 @@ export const Navbar = () => {
         <TopNav />
       </StyledEngineProvider>
       <MiddNav />
+      
       <BottomNav />
     </div>)
 }
