@@ -10,7 +10,7 @@ import { Features } from "./features";
 import { Card } from "./productCard";
 
 
-import { Navbar } from "../navbar/Navbar";
+import { Navbar } from "../navbar/navbar";
 import "swiper/css/bundle";
 import {Footer} from "../footer/footer"
 

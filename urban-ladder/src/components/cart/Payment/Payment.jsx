@@ -4,7 +4,7 @@ import { StepComponent } from "../ItemCom/StepComponent";
 import { OrderSummary } from "../OrderSummary/OrderSummary";
 import "./payment.css";
 
-import { Navbar } from "../../navbar/Navbar";
+import { Navbar } from "../../navbar/navbar";
 import { Footer } from "../../footer/footer";
 
 

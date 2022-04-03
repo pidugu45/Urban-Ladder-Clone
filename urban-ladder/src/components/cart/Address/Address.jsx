@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { OrderSummary } from "../OrderSummary/OrderSummary";
 
 
-import { Navbar } from "../../navbar/Navbar";
+import { Navbar } from "../../navbar/navbar";
 import "swiper/css/bundle";
 import {Footer} from "../../footer/footer"
 

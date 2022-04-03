@@ -9,7 +9,7 @@ import { Tools } from "../product-details-page/ProductsDetailComponents/iconsCom
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 
-import { Navbar } from "../navbar/Navbar";
+import { Navbar } from "../navbar/navbar";
 import "swiper/css/bundle";
 import {Footer} from "../footer/footer"
 

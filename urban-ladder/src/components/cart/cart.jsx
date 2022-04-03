@@ -4,7 +4,7 @@ import { ItemComp } from "./ItemCom/ItemComp";
 import { useNavigate } from "react-router-dom";
 import { StepComponent } from "./ItemCom/StepComponent";
 
-import { Navbar } from "../navbar/Navbar";
+import { Navbar } from "../navbar/navbar";
 import "swiper/css/bundle";
 import {Footer} from "../footer/footer"
 

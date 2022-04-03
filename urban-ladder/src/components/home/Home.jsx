@@ -1,4 +1,4 @@
-import { Navbar } from "../navbar/Navbar";
+import { Navbar } from "../navbar/navbar";
 import "./HomePage.css";
 import SimpleImageSlider from "react-simple-image-slider";
 import {PicsSlides} from "./PicsSlides"
