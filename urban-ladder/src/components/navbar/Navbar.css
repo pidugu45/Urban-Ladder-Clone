@@ -85,6 +85,10 @@
   border: none;
   width: 95%;
 }
+
+#inputAndSearch>input:focus, textarea:focus, select:focus{
+  outline: none;
+}
 #profileIcons {
   display: flex;
   width: 18%;
