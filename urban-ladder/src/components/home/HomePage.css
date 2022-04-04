@@ -81,6 +81,7 @@ body{
       width: 63%;
       margin: auto;  
       gap: 5px;
+      text-align: center;
   }
 
   .setMargingForSliding{
@@ -104,4 +105,11 @@ body{
 
   .borderRadius-for-img{
       border-radius: 50%;
+  }
+
+  .viewProduct-button{
+      background-color: #ED7745;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
   }
