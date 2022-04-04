@@ -49,7 +49,7 @@ export const PicsSlides2 = () => {
               alt=""
             />
             <div>Alexandria Book Shelf</div>
-            <button>VIEW PRODUCT</button>
+            <button className="viewProduct-button">VIEW PRODUCT</button>
           </SwiperSlide>
 
           <SwiperSlide>
@@ -63,7 +63,7 @@ export const PicsSlides2 = () => {
               alt=""
             />
             <p>Williams Bed</p>
-            <button>VIEW PRODUCT</button>
+            <button className="viewProduct-button">VIEW PRODUCT</button>
           </SwiperSlide>
           <SwiperSlide>
           <div>
@@ -76,7 +76,7 @@ export const PicsSlides2 = () => {
               alt=""
             />
             <p>Striado TV Unit</p>
-            <button>VIEW PRODUCT</button>
+            <button className="viewProduct-button">VIEW PRODUCT</button>
           </SwiperSlide>
           <SwiperSlide>
           <div>
@@ -89,7 +89,7 @@ export const PicsSlides2 = () => {
               alt=""
             />
              <p>Bradbury-Charles Study Set</p>
-            <button>VIEW PRODUCT</button>
+            <button className="viewProduct-button">VIEW PRODUCT</button>
           </SwiperSlide>
           <SwiperSlide>
           <div>
@@ -102,7 +102,7 @@ export const PicsSlides2 = () => {
               alt=""
             />
             <p>Kafano Coffee Table Set</p>
-            <button>VIEW PRODUCT</button>
+            <button className="viewProduct-button">VIEW PRODUCT</button>
           </SwiperSlide>
           <SwiperSlide>
           <div>
@@ -115,7 +115,7 @@ export const PicsSlides2 = () => {
               alt=""
             />
             <p>Larsson Study Table</p>
-            <button>VIEW PRODUCT</button>
+            <button className="viewProduct-button">VIEW PRODUCT</button>
           </SwiperSlide>
           <SwiperSlide>
           <div>
@@ -128,7 +128,7 @@ export const PicsSlides2 = () => {
               alt=""
             />
             <p>Larsson Study Table</p>
-            <button>VIEW PRODUCT</button>
+            <button className="viewProduct-button">VIEW PRODUCT</button>
           </SwiperSlide>
           <SwiperSlide>
           <div>
@@ -141,7 +141,7 @@ export const PicsSlides2 = () => {
               alt=""
             />
             <p>Larsson Study Table</p>
-            <button>VIEW PRODUCT</button>
+            <button className="viewProduct-button">VIEW PRODUCT</button>
           </SwiperSlide>
           <SwiperSlide>
           <div>
@@ -154,7 +154,7 @@ export const PicsSlides2 = () => {
               alt=""
             />
             <p>Larsson Study Table</p>
-            <button>VIEW PRODUCT</button>
+            <button className="viewProduct-button">VIEW PRODUCT</button>
           </SwiperSlide>
         </Swiper>
       </div>
